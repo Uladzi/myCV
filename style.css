@@ -1,0 +1,144 @@
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 5px 5px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2EFE9;
+}
+
+.wrapper {
+  padding: 12px 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 10px 12px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+}
+
+h1 {
+  left: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+h2 {
+  left: 6%;
+  position: relative;
+}
+
+.date-of-birth {
+  margin: 0;
+  left: 4%;
+  position: relative;
+  top: -20px;
+  font-size: 15px;
+}
+
+img {
+  margin-top: -67px;
+  margin-right: 4%;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.46);
+}
+
+ul {
+  display: inline-block;
+}
+
+.contacts {
+  left: 5%;
+  position: relative;
+}
+
+.phone-viber {
+  list-style-image: url(images/iconfinder_phone-viber.png);
+}
+
+.gmail {
+  list-style-image: url(images/iconfinder_gmail.png);
+}
+
+.linkedin {
+  list-style-image: url(images/iconfinder_linkedin.png);
+}
+
+.facebook {
+  list-style-image: url(images/iconfinder_facebook.png);
+}
+
+.telegram {
+  list-style-image: url(images/iconfinder_telegram.png);
+}
+
+.skype {
+  list-style-image: url(images/iconfinder_skype.png);
+}
+
+.discord {
+  list-style-image: url(images/iconfinder_discord.png);
+}
+
+.skills-list {
+  margin: 0;
+  padding-left: 42px;
+}
+
+a {
+  text-decoration: none;
+}
+
+dt {
+  padding-left: 24px;
+}
+
+p {
+  padding-left: 24px;
+}
+
+h4 {
+  padding-left: 35px;
+}
+
+.summary-body {
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 460px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    margin-top: 0px;
+    margin-left: 30%;
+    float: none;
+  }
+  h1 {
+    left: 0;
+    text-align: center;
+  }
+  h2 {
+    margin-right: 20px;
+  }
+  .date-of-birth {
+    left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    font-size: 15px; 
+    text-align: center;
+    top: -20px;
+  }
+  .contacts {
+    text-align: center;
+  }
+  h4 {
+    padding-left: 0;
+    text-align: center;
+  }
+}
