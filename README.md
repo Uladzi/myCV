@@ -1,4 +1,4 @@
 # myCV
 CV
 
-https://uladzi.github.io/CV/
+https://uladzi.github.io/myCV/
